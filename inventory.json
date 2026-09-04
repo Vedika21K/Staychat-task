@@ -1,0 +1,42 @@
+{
+  "hotel_id": "H001",
+  "hotel_name": "Hotel Sahu",
+  "currency": "INR",
+  "check_in_time": "12:00",
+  "check_out_time": "11:00",
+  "rooms": [
+    {
+      "type": "Standard Non-AC",
+      "base_occupancy": 2,
+      "max_occupancy": 3,
+      "base_price": 1500,
+      "extra_guest_price": 500
+    },
+    {
+      "type": "Deluxe Double AC",
+      "base_occupancy": 2,
+      "max_occupancy": 3,
+      "base_price": 2500,
+      "extra_guest_price": 700
+    },
+    {
+      "type": "Super Deluxe AC",
+      "base_occupancy": 2,
+      "max_occupancy": 4,
+      "base_price": 3500,
+      "extra_guest_price": 800
+    },
+    {
+      "type": "Family Suite AC",
+      "base_occupancy": 4,
+      "max_occupancy": 6,
+      "base_price": 5000,
+      "extra_guest_price": 1000
+    }
+  ],
+  "policies": {
+    "children_under_5_free": true,
+    "early_check_in": "subject to availability, chargeable",
+    "cancellation": "free up to 24 hours before check-in"
+  }
+}
